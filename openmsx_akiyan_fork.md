@@ -37,4 +37,4 @@ tick 0 のエミュレーター内の時刻をマーカーに書き、同じ実�
 - セーブステートを読み込んだとき（`loadstate`、`reverse`）は、上流と同じく、読み込んだ時刻から時計をやり直す。最初の修正はここでも音を作ろうとして、新しいマシンの時刻 0 から数秒分になり、落ちた。 [Issue #3](https://github.com/akiyan/openMSX/issues/3)
 
 一時停止を何回またいでも、録音はエミュレーター内の時間とサンプル単位で一致する。
-同じ変更を、上流の master に 2 コミット（現在までの音を作る、リサンプラーを保つ）で提案する準備をした。 [検証記録](releases/2026-11-25.md) · [読み込みの修正の検証記録](releases/2026-11-25-2.md) · [Issue #2](https://github.com/akiyan/openMSX/issues/2)
+同じ変更を、上流の master に 2 コミット（現在までの音を作る、リサンプラーを保つ）で提案した。 [上流の PR #2322](https://github.com/openMSX/openMSX/pull/2322) [検証記録](releases/2026-11-25.md) · [読み込みの修正の検証記録](releases/2026-11-25-2.md) · [Issue #2](https://github.com/akiyan/openMSX/issues/2)
