@@ -12,3 +12,4 @@
 
 独自コミットのメッセージは変更情報のページの URL とする。
 新しいソースファイルは `src/meson.build` と `build/msvc/` のプロジェクトにも登録する（GNU make はディレクトリを走査する）。
+上流の `master` は 22.0 の後に SDL2 から SDL3 へ移った。ビルドには SDL3・SDL3_ttf の開発用パッケージが要る（Ubuntu では `libsdl3-dev libsdl3-ttf-dev`）。

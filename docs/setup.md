@@ -10,6 +10,7 @@ cd openmsx
 make -j8
 python3 tests/akiyan/midi_out_smf.py
 python3 tests/akiyan/record_pause.py
+python3 tests/akiyan/record_loadstate.py
 ```
 
 実行ファイルは `derived/x86_64-linux-opt/bin/openmsx` にできる。試験は `--binary` で別の実行ファイルも指定できる。
